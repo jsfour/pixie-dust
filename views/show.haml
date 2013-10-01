@@ -1,9 +1,8 @@
-%h1 Tracking Fired For #{@tracker.id}
-%h3 Status: #{@tracker.found}
-%h3 Count: #{@tracker.count}
+%h1 Status Of Item #{@tracker.id}
+%hr
+%h3.content Session Info
 
 %div
 	%div 
-		%h4.content Session Info
-		%p IP: #{@tracker.ip}
-		%p COOKIES: #{@tracker.cookies}
+		%p Found?: #{@tracker.found}
+		%p Count: #{@tracker.count}

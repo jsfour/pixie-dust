@@ -6,6 +6,7 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'redis'
 gem 'json'
+gem 'sinatra-contrib'
 
 
 group :development do
